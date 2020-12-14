@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div#container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: row nowrap;
 }
 
-.App-link {
-  color: #61dafb;
+div#editor-container {
+  background-color: #cdb4db;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 16px;
+  flex-grow: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea#editor {
+  height: calc(100% - 50px);
+  width: 100%;
+  background-color: #cdb4db;
+  overflow: auto;
+  border: none;
+  border-radius: 5px;
+}
+
+div#preview {
+  flex-grow: 1;
+  margin: 0 16px;
+  padding: 16px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #ffc8dd;
+}
+
+td,
+th {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+h1#welcome-to-my-react-markdown-previewer {
+  padding-bottom: 5px;
+  border-bottom: 3px solid;
+}
+
+h2#this-is-a-sub-heading {
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+
+pre {
+  background-color: white;
 }
