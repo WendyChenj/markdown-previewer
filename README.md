@@ -12,4 +12,6 @@ This project is built using React, HTML, CSS & <a href="https://github.com/marke
 
 ### Demo
 
-![Markdown Previewer] (https://github.com/WendyChenj/markdown-previewer/blob/master/screenshot/markdown-previewer.png)
+<img src="https://github.com/WendyChenj/markdown-previewer/blob/master/screenshot/markdown-previewer.png" width=450>
+
+@ Happy coding - WENDY
