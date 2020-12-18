@@ -1,6 +1,6 @@
 # Markdown Previewer
 
-Project 2 of Front End Libraries from freeCodeCamp.
+Project 2 of from freeCodeCamp.
 
 This project is built using React, HTML, CSS & <a href="https://github.com/markedjs/marked?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library">MarkedJS</a>.
 
